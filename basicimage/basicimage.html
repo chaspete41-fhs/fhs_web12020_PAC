@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                padding:1vh;
+                color: white;
+            }
+            body {
+                background: #5e60ce;
+            }
+            header h1 {
+                padding:2vh;
+                width:60%;
+                margin:1vh auto;
+                border-radius:12px;
+            }
+            nav {
+                background:#4ea8de;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:#4ea8de;
+                color:white;
+                padding:2vh;
+                min-height:15vh;
+            }
+            .container {
+                min-height:75vh;
+                width:80%;
+                margin: 1vh auto;
+            }
+            .jumbotron img {
+              width: 100%;
+              display: block;
+              filter: greyscale(100%) blur(1px) brightness(75%);
+              border-radius: 12px;
+            }
+            .jumbotron {
+              position: relative;
+              width: 100%;
+              color: white;
+              text-align: center;
+            }
+            .overlay {
+              height: 100%;
+              width:100%;
+              position: absolute;
+              bottom: 0;
+              top: 0;
+              align-self: center;
+              left: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              background: rgba(78, 168, 222, .35);
+              border-radius: 12px;
+              }
+              .overlay h3 {
+                font-size: 3rem;
+                margin: 1rem;
+              }
+              .overlay p {
+                font-size 1.5rem;
+              }
+              
+              .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: stretch;
+                gap: 2rem;
+                padding: 2rem;
+                background: snow;
+                margin: 1vh auto;
+                background: 5px rgba(78, 168, 222, .65);
+                outline: 5px #4ea8de solid;
+              }
+              
+              .flex-item {
+                flex: 0 0 calc(100%/3 - 1.34rem);
+                outline: 1px lightgrey solid;
+                box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.5);
+              }
+              .flex-item h3 {
+                padding: 2vh;
+                background-color: black;
+                color: white;
+                text-align: center;
+              }
+              .flex-item p {
+                font-size: 20px;
+                padding: 2vh;
+                line-height: 1.5rem;
+                text-align: center;
+              }
+              
+              .media img {
+                width: 100%;
+                display: block;
+              }
+            
+            
+        </style>
+        <title>Basic Image Gallery</title>
+    </head>
+    
+    <body>
+        <header>
+          &nbsp;
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+
+        <div class="container">
+          <div class="jumbotron">
+          <img src="images/imagegallery.png" alt="let it snow" title="jumbo image">
+          <div class="overlay">
+            <h3>Basic Image Gallery</h3>
+            <p>Peter Chase<br>
+                Web 1, Hour 3<br>
+                11/23/2020</p>
+          </div>
+          
+        </div>
+            <!-- Write Assignment code under here-->
+            <div class="flex-container">
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/Red-Husky-Feature.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Dogs</h3>
+                  <p>
+                    Dogs are very loyal companions. This particular dog is a red and white siberian husky.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/cat-mind-games-TN.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Cats</h3>
+                  <p>
+                    Cats are very lazy but lovable companions. This particular cat is a russain blue.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/images.jfif" alt="#">
+                </div>
+                <div>
+                  <h3>Dolphins</h3>
+                  <p>
+                    Dolphins are very intelligent and human-like creatures. These are two dolphins jumping out of the water during the sunset.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+                          <div class="flex-item">
+                <div class="media">
+                  <img src="images/maxresdefault.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Tigers</h3>
+                  <p>
+                    Tigers are very powerful predators. This particular tiger is a white tiger.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+            
+            <div class="flex-item">
+                <div class="media">
+                  <img src="images/download.jfif" alt="#">
+                </div>
+                <div>
+                  <h3>Penguins</h3>
+                  <p>
+                    Pemguins are very tough animals, but they are delicate to changes in their environment. This particular penguin is called  anorthern rockhopper penguin.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/lion.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Lions</h3>
+                  <p>
+                    Lions are very tough and vicious creatures. They are known as the apex predator, and even the king of the jungle.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/horseinsuit2.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Horses</h3>
+                  <p>
+                    Horses are very beautiful and fast creatures. This particular horse is wearing a suit.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/e614c13476ee70cd43bade37d0767169.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Foxs</h3>
+                  <p>
+                    Foxs are very sly and playful creatures. This particular fox is a snow fox.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/red-panda.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Red Pandas</h3>
+                  <p>
+                    Red pandas are not very aggressive creatures. Red panda's are known as an endangered species.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/q0hnsl6q53o51.jpg" alt="#">
+                </div>
+                <div>
+                  <h3>Turtles</h3>
+                  <p>
+                    Turtles have a rough life, from the day they are born they are hunted down. This particular turtle is called the Eastern long-necked turtle.
+                  </p>
+                </div>
+              </div><!-- End flex item -->
+            
+            
+            
+            </div> <!-- End Flex Container -->
+        </div><!-- End of container -->
+        <footer>
+            Placeholder
+            
+        </footer>
+
+    <!-- End of page code, but be sure to copy closing tags below-->
+    </body>
+</html>
